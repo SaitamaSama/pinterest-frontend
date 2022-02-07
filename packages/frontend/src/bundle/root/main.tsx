@@ -31,8 +31,8 @@ export const Main = () => {
       <section>
         <UploadComponent
           onListUpload={(list) => setUploadItems(list)}
-          onImageUpload={(imageUrl) => {
-            const newItem: UploadItem = { imageUrl, text: "" };
+          onImageUpload={(imageUrl, text) => {
+            const newItem: UploadItem = { imageUrl, text };
             setUploadItems([...uploadItems, newItem]);
             return newItem;
           }}

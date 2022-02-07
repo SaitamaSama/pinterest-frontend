@@ -20,7 +20,7 @@ const Container = styled(Box)(({ theme }) => ({
 // Component interfaces
 export interface UploadProps {
   onListUpload: (list: Array<UploadItem>) => unknown;
-  onImageUpload: (imageUrl: string) => UploadItem;
+  onImageUpload: (imageUrl: string, text: string) => UploadItem;
 }
 
 // Lazily imported components
