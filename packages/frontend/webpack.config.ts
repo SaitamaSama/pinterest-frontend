@@ -1,4 +1,5 @@
 import { config as dotenv } from "dotenv";
+import * as DotenvPlugin from "dotenv-webpack";
 import * as HtmlWebpackPlugin from "html-webpack-plugin";
 import * as path from "path";
 import * as webpack from "webpack";
@@ -15,6 +16,8 @@ const config: webpack.Configuration = {
     new HtmlWebpackPlugin({
       template: path.join(path.resolve(__dirname, "src"), "index.html"),
     }),
+    // @ts-ignore
+    new DotenvPlugin(),
   ],
   module: {
     rules: [
@@ -56,7 +59,8 @@ const config: webpack.Configuration = {
   devServer: {
     historyApiFallback: true,
   },
-  mode: process.env["NODE_ENV"] as "development" | "production",
+  mode:
+    (process.env["NODE_ENV"] as "development" | "production") || "development",
 };
 
 export default config;
