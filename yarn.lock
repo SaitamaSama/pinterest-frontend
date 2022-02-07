@@ -1137,6 +1137,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/azeret-mono@^4.5.4":
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/@fontsource/azeret-mono/-/azeret-mono-4.5.4.tgz#896a8c7a72bda09e839ea5e0ca407e90c731ccac"
+  integrity sha512-PdB24YWU4gCK1LxrwlqbKPxIhrOLJtegj5eN6vlAjMZHu/YHtc9BPpvNVaOMt/Xw9jjTSN8H1V4/ttqS3A/A1Q==
+
 "@fontsource/be-vietnam-pro@4.5.2":
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/@fontsource/be-vietnam-pro/-/be-vietnam-pro-4.5.2.tgz#26e3b8564139b7592f3b6762cd5c0abd65e934f6"
@@ -5320,6 +5325,11 @@ react-fast-compare@^2.0.1:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
+
+react-icons@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.3.1.tgz#2fa92aebbbc71f43d2db2ed1aed07361124e91ca"
+  integrity sha512-cB10MXLTs3gVuXimblAdI71jrJx8njrJZmNMEMC+sQu5B/BIOmlsAjskdqpn81y8UBVEGuHODd7/ci5DvoSzTQ==
 
 react-is@^16.13.1, react-is@^16.6.0, react-is@^16.7.0:
   version "16.13.1"

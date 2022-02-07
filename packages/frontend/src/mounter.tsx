@@ -20,6 +20,9 @@ render(
           font-size: 14px;
           letter-spacing: -0.4px;
         }
+        a {
+          cursor: pointer;
+        }
       `}
     />
     <RootApp />
